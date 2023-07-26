@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+	<body style="font-family: Arial; font-size: 14px;">
+		<table style='width:730px; padding:10px; border: 1px solid #777; font-family:tahoma, verdana, arial, helvetica, sans-serif; font-size:10pt; border-bottom:2px solid #777; background-color:#F5F5F5'>
+		<tr>
+			<td><b><font color='#333333'>SAC | Cadastro de Pedido de Informação</font></b></td>
+		</tr>
+		<tr>
+			<td colspan='2'></td>
+		</tr>
+	</table>
+	<table style='width:730px;padding:10px; border-left: 1px solid #777; border-right: 1px solid #777;font-family:tahoma, verdana, arial, helvetica, sans-serif; font-size:10pt;'>
+		<tr>
+			<td>Prezado(a) Senhor(a),</td>
+		</tr>
+	</table>
+	<table style='width:730px;padding:10px; border-left: 1px solid #777; border-right: 1px solid #777; font-family:tahoma, verdana, arial, helvetica, sans-serif; font-size:10pt;'>
+		<tr>
+			<td>Agradecemos por entrar em contato com o Serviço de Atendimento ao Cidadão do Sistema FIEPE.</td>
+		</tr>
+	</table>
+	<table style='width:730px;padding:10px; border-left: 1px solid #777; border-right: 1px solid #777; font-family:tahoma, verdana, arial, helvetica, sans-serif; font-size:10pt;'>
+		<tr>
+			<td>Informamos que nesta data seu Pedido de Informação de nº <b><span th:text="${atendimento.anoAtendimento}+''+${atendimento.numeroAtendimento}"></span></b> foi recebido 
+			e encaminhado para a área responsável, a qual emitirá a resposta no prazo de até 20 dias úteis, podendo ser postergado, em caso de análise mais detalhada.</td>
+		</tr>
+	</table>
+	<table style='width:730px;padding:10px; border-left: 1px solid #777; border-right: 1px solid #777; font-family:tahoma, verdana, arial, helvetica, sans-serif; font-size:10pt;'>
+		<tr>
+			<td>A resposta será endereçada ao e-mail cadastrado. Dessa forma, solicitamos verificar sempre a caixa de entrada e spam.</td>
+		</tr>
+	</table>
+	<table style='width:730px;padding:10px; border-left: 1px solid #777; border-right: 1px solid #777; font-family:tahoma, verdana, arial, helvetica, sans-serif; font-size:10pt;'>
+		<tr>
+			<td>Em caso de dúvidas nos contate 0800.600.9606</td>
+		</tr>
+	</table>
+	<table style='width:730px;padding:10px; border-left: 1px solid #777; border-right: 1px solid #777; font-family:tahoma, verdana, arial, helvetica, sans-serif; font-size:10pt;'>
+		<tr>
+			<td>Atenciosamente,</td>
+		</tr>
+	</table>
+	<table style='width:730px;padding:10px; border-left: 1px solid #777; border-right: 1px solid #777; font-family:tahoma, verdana, arial, helvetica, sans-serif; font-size:10pt;'>
+		<tr>
+			<td>SAC – Serviço de Atendimento do Cidadão do SESI e SENAI Pernambuco.</td>
+		</tr>
+	</table>
+	<table style='width:730px; padding:10px;border-left: 1px solid #777; border-right: 1px solid #777; font-family:tahoma, verdana, arial, helvetica, sans-serif; font-size:10pt;'>
+		<tr>
+			<td>Para entrar no sistema e verificar os pedidos de infomações,
+			 <a th:href="@{'https://portalouvidoria.com.br:8504/gcon/login'}">clique aqui</a>
+		</tr>
+	</table>
+	<table style='width:730px;padding:3px; border-top:1px solid #777;'>
+		<tr>
+			<td align='right'>&nbsp;</td>
+		</tr>
+	</table>	
+</body>
+</html>
